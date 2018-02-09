@@ -1,0 +1,42 @@
+ The first accuracy is the one using kmm and the second is one without kmm
+
+
+
+1.ACC:87%, Total:80/80 with positive 70
+   
+ ACC:88%, Total:80/80 with positive 71
+
+
+
+2. ACC:86%, Total:80/80 with positive 69
+ 
+   ACC:86%, Total:80/80 with positive 69
+
+
+
+3. ACC:87%, Total:80/80 with positive 70
+  
+   ACC:93%, Total:80/80 with positive 75
+
+
+
+4. ACC:75%, Total:400/400 with positive 303
+  
+   ACC:84%, Total:400/400 with positive 336
+
+
+
+5. ACC:75%, Total:400/400 with positive 303
+  
+   ACC:85%, Total:400/400 with positive 343
+
+
+
+6. ACC:75%, Total:400/400 with positive 301
+  
+   ACC:80%, Total:400/400 with positive 320
+
+
+SVM looks at the interactions between features to a certain degree, as long as you're using a non-linear kernel
+ (Gaussian, rbf, poly etc.). Since we have interactions an SVM will be better at capturing those, 
+hence better at the classification.
